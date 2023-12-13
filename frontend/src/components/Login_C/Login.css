@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  
+    background-size: 2444px;
+    background-position: center;
+    height: auto;
+    align-items: center;
+    overflow-y: auto;
+    min-height: 100vh;
+  }
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .card {
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 700px;
+    width: 100%;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color:rgba(255, 253, 253, 0.8);;
+    
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Przyciski - link */
+  .btn-link {
+    color: #007bff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }

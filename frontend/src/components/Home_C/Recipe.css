@@ -1,0 +1,75 @@
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    flex: 1 0 calc(33.33% - 20px); /* Ustaw szerokość karty na jedną trzecią szerokości kontenera */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .selected-card {
+    background-color: lightblue; /* Kolor tła dla wybranej karty */
+  }
+  
+  .selected-recipe-container {
+    margin-top: 20px; /* Dodatkowy margines dla kontenera wyświetlającego szczegóły przepisu */
+    background-color: white;
+    border: 2px black dashed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+
+  }
+  
+  .selected-recipe {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Maksymalna szerokość wyświetlanego kontenera */
+  }
+  /* recipe.css */
+
+/* Pozostałe style dla przepisów i kart */
+/* ... */
+
+.add-recipe-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .add-recipe-container form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .add-recipe-container input,
+  .add-recipe-container textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-recipe-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-recipe-container button:hover {
+    background-color: #0056b3;
+  }

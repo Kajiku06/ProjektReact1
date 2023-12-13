@@ -1,0 +1,5 @@
+PS C:\U\.\mongodb> bin\mongod --dbpath ./data
+
+
+
+ npm i express mysql cors nodemon

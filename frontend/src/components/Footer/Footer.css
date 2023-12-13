@@ -1,0 +1,32 @@
+/* Style dla stopki */
+html, body {
+    height: 100%; /* Ustawienie wysokości na 100% */
+    margin: 0;
+}
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimalna wysokość na całą widoczność okna przeglądarki */
+  }
+.footer {
+    background-color: #333; /* Kolor tła */
+    color: #fff; /* Kolor tekstu */
+    padding: 20px; /* Wewnętrzne marginesy */
+    text-align: center; /* Wyrównanie tekstu do środka */
+    flex-shrink: 0; /* Zapobieganie zmniejszaniu stopki w przypadku braku miejsca */
+    height: 10%; /* Zwiększenie wysokości o 100% */
+  }
+.body-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 20px; 
+  }
+  /* Style dla stopki */
+  .footer a {
+    color: #fff; /* Kolor linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Podkreślenie po najechaniu myszką */
+  }

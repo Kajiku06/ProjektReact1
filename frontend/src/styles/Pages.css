@@ -1,0 +1,8 @@
+
+#id {
+    overflow-y: auto; /* Umożliwienie przewijania zawartości w pionie */
+    min-height: 100vh; /* Ograniczenie wysokości do maksymalnej wysokości widocznego obszaru */
+}
+body{
+    background-image: url('https://ccnyplanetarium.org/assets/images/jupiter-saturn-conjunction-2020-nyc.gif');
+}
